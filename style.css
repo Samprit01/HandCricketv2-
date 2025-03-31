@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url('pitch.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#buttons button {
+    background-color: #28a745;
+}
+
+#buttons button:hover {
+    background-color: #1e7e34;
+}
+##gameControls {
+    text-align: center;  /* Center the contents inside */
+    margin-bottom: 20px;
+}
+
+#tossBtn {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;       /* Ensure it's treated as a block element */
+    margin: 0 auto;       /* Center it horizontally */
+}
